@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+</head>
+<body> 
+    <p> 
+        <h2><strong> Click to display Today's date and time</strong></h2>
+         <br> <br> <br> 
+       <section class="output" style="font-family: 'Times New Roman', Times, serif;font-size: 14pt;"></section>
+    </p> 
+  
+    <button onclick="currentdate()" style="color: green; font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> 
+       Click
+    </button> 
+      
+    <script > 
+                function currentdate() 
+                { 
+                    let cdate = new Date(); 
+        
+                    document.querySelector('.output').textContent = cdate; 
+                } 
+    </script> 
+
+
+</body>
+</html>
